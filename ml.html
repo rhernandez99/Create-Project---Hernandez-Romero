@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title> Create Prject - Richard H. and Jorge Romero </title>
-    </head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</html>
+</head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="ml.js">
 </script>
 <center>
-<body>
-    <h1> Wacky Stories </h1>
+
+    <body>
+        <div class="container">
+            <h1> Wacky Story </h1>
+            <p> Create your own Wacky Story!</p>
+            <p> Enter a part of speech! </p>
+            <hr/>
+   Part of Speech 1: <input type="text" id="poSpeech">
+            <hr/>
+           Part of Speech 2: <input type="text" id="poSpeech2">
+            <hr/>
+            Part of Speech 3: <input type="text" id="poSpeech3">
+            <hr/>
+    <input type="button" onclick="document.getElementById('Wacky Story Game').innerHTML=betterNameGame(document.getElementById('inputSpeech').value)" value = "Create">
+<div id = "wackyGame">
+
+        </div>
     </body>
 </center>
+
+</html>
