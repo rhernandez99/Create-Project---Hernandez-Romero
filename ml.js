@@ -3,10 +3,9 @@ function displayStory (a, b, c, story) {
     var b = textboxB.value;
     var c = textboxC.value;
     var story = "Once there was " + a + " programmer who used JavaScript to " + b + " the " + c + ".";
-    if (a == "") {
+    if (a || b || c == "") {
         document.write("Error");
-    }
-   else {
+    } else {
       document.write(story);
 }
 }
