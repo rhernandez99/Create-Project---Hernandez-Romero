@@ -1,4 +1,4 @@
-function displayStory (a, b, c, story) {
+function displayStory(a, b, c, story) {
     var a = textboxA.value;
     var b = textboxB.value;
     var c = textboxC.value;
@@ -11,7 +11,8 @@ function displayStory (a, b, c, story) {
     }
     else if (c == "") {
         document.write("Error - You left a text box blank");
-    } else {
-      document.write(story);
-}
+    }
+    else {
+        document.write(story);
+    }
 }
