@@ -13,6 +13,6 @@ function displayStory(a, b, c, story) {
         document.write("Error - You left a text box blank");
     }
     else {
-        document.write(story);
+        $('#story').append('<br/>' + story);
     }
 }
