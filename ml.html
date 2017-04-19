@@ -10,21 +10,24 @@
 <script src="ml.js">
 </script>
 
-<body>
+<body class="bg-outline-primary">
     <center>
-        <h1> Wacky Story </h1>
-        <p> Create your own Wacky Story!</p>
-        <p> Enter a part of speech! </p>
-        <hr/> Adjective:
+        <h1 class="text-primary"> Wacky Story </h1>
+        <p class="text-primary">Create your own Wacky Story!</p>
+        <p class="text-primary">Enter a part of speech! </p>
+        <hr/>
+        <p class="text-info"> Adjective: </p>
         <input type="text" id="textboxA">
-        <hr/> Verb that does not end with -ing:
+        <hr/>
+        <p class="text-info"> Verb that does not end with -ing:</p>
         <input type="text" id="textboxB">
-        <hr/> Noun:
+        <hr/>
+        <p class="text-info"> Noun: </p>
         <input type="text" id="textboxC">
         <hr/>
-        <input type="button" onclick="displayStory('textboxA', 'textboxB', 'textboxC', story); myFunction();" value="Create">
-        <div id="counterClick">0</div>
-        <div id="story"></div>
+        <input type="button" class="btn btn-success" onclick="displayStory('textboxA', 'textboxB', 'textboxC', story)" value="Create">
+        <div class="text-success" id="story"></div>
+        <div class="text-danger" id="estory"></div>
     </center>
 </body>
 
